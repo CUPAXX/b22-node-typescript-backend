@@ -109,11 +109,11 @@ export const updateForgot = async (req: Request, res: Response) => {
     const results:any = await updateForgotPassword(data)
     const resetCode = ""
     const updateData = {code: resetCode, email}
+    console.log("")
     await genCodeForgot(updateData)
     if(results[0].affectedRows <= 0) {
         return response(res,"Wrong code or email", 500, false)
     } else {
         return response(res,"Update Password Success", 200, true)
     }
-
 }
