@@ -64,7 +64,7 @@ export const generateForgotcode = async (req: Request, res: Response) => {
       const codeForgot:any = Math.floor(100000 + Math.random() * 900000)
 
       const transporter = nodemailer.createTransport({
-        host: "smtp.gmail.com",
+        host: process.env.HOST_SMTP,
         port: 465,
         secure: true,
         auth: {
