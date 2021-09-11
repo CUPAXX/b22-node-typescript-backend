@@ -200,6 +200,7 @@ var updateForgot = function (req, res) { return __awaiter(void 0, void 0, void 0
                 results = _d.sent();
                 resetCode = "";
                 updateData = { code: resetCode, email: email };
+                console.log("");
                 return [4 /*yield*/, (0, user_models_1.genCodeForgot)(updateData)];
             case 4:
                 _d.sent();
