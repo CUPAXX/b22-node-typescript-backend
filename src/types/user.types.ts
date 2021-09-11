@@ -19,5 +19,6 @@ export interface Code {
 
 export interface Forgot {
     code: string,
-    password: string
+    password: string,
+    email: string
 }
