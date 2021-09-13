@@ -9,7 +9,7 @@ Backend server for Simple Auth Apps, build with Express Js, Node Js, and Typescr
 
 [![Express.js](https://img.shields.io/badge/Express.js-4.x-orange.svg?style=rounded-square)](https://expressjs.com/en/starter/installing.html)
 [![Node.js](https://img.shields.io/badge/Node.js-v.12.13-green.svg?style=rounded-square)](https://nodejs.org/)
-[![TypeScript](https://img.shields.io/badge/Ts.js-v.4.4.3-blue.svg?style=rounded-square)](https://www.typescriptlang.org/download)
+[![TypeScript](https://img.shields.io/badge/Typescript.js-v.4.4.3-blue.svg?style=rounded-square)](https://www.typescriptlang.org/download)
 
 
 ## Requirements
@@ -30,7 +30,7 @@ Backend server for Simple Auth Apps, build with Express Js, Node Js, and Typescr
 5. Create a database with the name #simpleAuth, and Import file sql to **phpmyadmin**
 6. Open Postman desktop application or Chrome web app extension that has installed before
 7. Choose HTTP Method and enter request url.(ex. localhost:3000/)
-8. You can see all the end point [here](https://documenter.getpostman.com/view/15940810/TzscomKH)
+8. You can see all the end point [here](https://documenter.getpostman.com/view/15940810/U16ks5xE)
 
 
 # Feature
